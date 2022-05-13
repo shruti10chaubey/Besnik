@@ -27,7 +27,7 @@
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="">Besnik</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-light   " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -118,8 +118,8 @@
     <table>
       <tr>
         <td class="p1">
-        <h2>Our popular course</h2>
-        <p>Here is your favorite course that suit for you. Pick the best course and get the better outcome.</p>
+          <h2>Our popular course</h2>
+          <p>Here is your favorite course that suit for you. Pick the best course and get the better outcome.</p>
         </td>
         <td class="p2">
           <a href="#"><u>View All Courses</u></a>
@@ -127,49 +127,76 @@
       </tr>
     </table>
 
-    <img src="" alt="laptop.png">
-    <h3>$200</h3>
-    <h4>Web Design</h4>
-    <p>Basic to professional web design</p>
-    <table>
-      <tr>
-        <td>2 Months</td>
-        <td>40 Classes</td>
-      </tr>
-    </table>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="https://i.pinimg.com/564x/fb/a4/e7/fba4e731a252d1876db79a1adb022ba7.jpg" class="card-img" alt="laptop.png">
+            <h3 class="amount">$200</h3>
+            <h4>Web Design</h4>
+            <p>Basic to professional web design</p>
+            <table>
+              <tr>
+                <td class="td1">📅2 Months</td>
+                <td>📱40 Classes</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
 
-    <img src="" alt="desk.png">
-    <h3>$200</h3>
-    <h4>UI/UX Design</h4>
-    <p>Basic to professional UI/UX design</p>
-    <table>
-      <tr>
-        <td>2 Months</td>
-        <td>40 Classes</td>
-      </tr>
-    </table>
+      <div class="col-lg-4">
 
-    <img src="" alt="work.png">
-    <h3>$200</h3>
-    <h4>Web Development</h4>
-    <p>Basic to professional web development</p>
-    <table>
-      <tr>
-        <td>2 Months</td>
-        <td>40 Classes</td>
-      </tr>
-    </table>
+        <div class="card">
+          <div class="card-body">
+            <img src="https://i.pinimg.com/236x/b8/fa/9c/b8fa9c69109e6805d54faecf394a461b.jpg" class="card-img" alt="desk.png">
+            <h3 class="amount">$200</h3>
+            <h4>UI/UX Design</h4>
+            <p>Basic to professional UI/UX design</p>
+            <table>
+              <tr>
+                <td class="td1">📅2 Months</td>
+                <td>📱40 Classes</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-4">
+
+        <div class="card">
+          <div class="card-body">
+            <img src="https://i.pinimg.com/236x/5b/f6/fb/5bf6fb79eef01d6913f9e99f4c11a267.jpg" class="card-img" alt="work.png">
+            <h3 class="amount">$200</h3>
+            <h4>Web Development</h4>
+            <p>Basic to professional web development</p>
+            <table>
+              <tr>
+                <td class="td1">📅2 Months</td>
+                <td>📱40 Classes</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
   </section>
 
   <!-- Call to Action -->
 
   <section id="cta">
-    <h3>Subscribe Newsletter</h3>
+    <h2>Subscribe Newsletter</h2>
     <p>Subscribe our newsletter to get updates</p>
     <form class="" action="mailto:shruti.chaubey10062001@gmail.com" method="post">
       <label for=""></label>
-      <input type="email" name="email" value="Enter your email">
-      <input type="button" name="" value="Get started">
+      <input type="email" name="email" class="email" value="Enter your email">
+      <input type="button" class="btn btn-outline-light cta-btn" name="" value="Get started">
     </form>
   </section>
 
@@ -177,13 +204,13 @@
 
   <section id="about">
     <div class="row">
-      <div class="col-lg-3 col-md-6">
-        <h4>Besnik</h4>
+      <div class="col-lg-3 col-md-6 about-box">
+        <b><h4>Besnik</h4></b>
         <p>We are getting our students the best and suitable services for building there bright future.</p>
       </div>
 
 
-      <div class="col-lg-3 col-md-6">
+      <div class="col-lg-3 col-md-6 about-box">
         <h5>company</h5>
         <ul style="none">
           <li>About</li>
@@ -195,7 +222,7 @@
       </div>
 
 
-      <div class="col-lg-3 col-md-6">
+      <div class="col-lg-3 col-md-6 about-box">
         <h5>Support</h5>
         <ul style="none">
           <li>Support Career</li>
@@ -205,11 +232,11 @@
       </div>
 
 
-      <div class="col-lg-3 col-md-6">
+      <div class="col-lg-3 col-md-6 about-box">
         <h5>Social</h5>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands about-icon fa-1x fa-facebook"></i>
+        <i class="fa-brands about-icon fa-1x fa-twitter"></i>
+        <i class="fa-brands about-icon fa-1x fa-linkedin-in"></i>
       </div>
     </div>
 
@@ -217,7 +244,7 @@
 
   <!-- Footer -->
 
-  <section class="footer">
+  <section id="footer">
     <p>Copyright © 2022 All Right Reserved Besnik.agency</p>
   </section>
 
