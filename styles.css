@@ -35,6 +35,13 @@ h3{
   font-size: 1rem;
 }
 
+h4{
+  font-size: 1.5rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  color: #160040;
+}
+
 p{
   color: #8f8f8f;
   line-height: 1.5;
@@ -139,4 +146,69 @@ u{
 .p2{
   text-align: right;
   padding-left: 260px;
+}
+
+.card-img{
+  padding: 7% 15%;
+  width: 60%;
+  border-radius: 35%;
+}
+
+.amount{
+  font-size: 1.5rem;
+}
+
+.card{
+  text-align: left;
+}
+
+.td1{
+  padding-right: 50px;
+}
+
+/* Call to Action */
+
+#cta{
+  background-color: #FFEDDB;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.email{
+  border: 0;
+  padding: 0;
+}
+
+.cta-btn:hover{
+  background-color: #FF8D29;
+  color: #541690;
+  border: 0;
+}
+
+/* About */
+
+#about{
+  background-color: white;
+  padding: 3% 2% 0 10%;
+}
+
+.about-box{
+  padding: 3% 5%;
+}
+
+.about-icon{
+  background-color: #FFEDDB;
+  color: #160040;
+  margin: 5% 7% 5% 0;
+padding: 5%;
+}
+
+/* Footer */
+
+#footer{
+  padding: 3% 15%;
+  background-color: white;
+  color: grey;
+  text-align: center;
+  font-size: 0.8rem;
 }
